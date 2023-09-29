@@ -1,3 +1,11 @@
+/* DESKTOP FIRST */
+@media screen and (max-width: 1140px){
+    .container{
+        width: 100%;
+    }
+    
+}
+
 
 /* TABLET FIRST */
 @media screen and (max-width: 768px){
@@ -5,13 +13,17 @@
         width: 100%;
     }
 
+
 }
 
 /* MOBILE FIRST */
-@media screen and (max-width){
+@media screen and (max-width: 480px){ 
     .container{
-        width: 
+        width: 100%;
+        display: flex;
     }
+   
+
     
-    
+
 }
