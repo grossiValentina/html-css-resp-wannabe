@@ -2,6 +2,7 @@
 @media screen and (max-width: 1140px){
     .container{
         width: 100%;
+        overflow-y: hidden;
     }
     
 }
@@ -11,8 +12,8 @@
 @media screen and (max-width: 768px){
     .container{
         width: 100%;
+        overflow-y: hidden;
     }
-
 
 }
 
@@ -20,10 +21,20 @@
 @media screen and (max-width: 480px){ 
     .container{
         width: 100%;
-        display: flex;
     }
-   
 
-    
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .lessons .col {
+        width: 100%;
+    }
+    .steps .col{
+        width: 100%;
+    }
+    .why-us .col{
+        width: 100%;
+    }
 }
